@@ -177,7 +177,7 @@ graph TD
 ### Local Development
 ```bash
 # Clone repository
-git clone https://github.com/your-username/gaza-genocide-documentation.git
+git clone https://github.com/SharifDer/Gaza-Genocide.git
 cd gaza-genocide-documentation
 
 # Install dependencies
@@ -230,7 +230,6 @@ curl http://localhost:5000/stats
 ### Getting Help
 - GitHub Issues for bug reports
 - CONTRIBUTING.md for guidelines
-- Email: documentation@example.com
 
 ### Contributing
 1. Fork the repository

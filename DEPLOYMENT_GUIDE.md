@@ -63,13 +63,13 @@ For dynamic badges via API:
 1. Go to repository **Settings**
 2. Navigate to **Pages**
 3. Select **GitHub Actions** as source
-4. The API will be available at `https://your-username.github.io/repo-name/`
+4. The API will be available at `https://SharifDer.github.io/Gaza-Genocide/`
 
 ### 4. Update Badge URLs (If using API)
 If you deploy the API server, update the README badge URLs to point to your API endpoint:
 
 ```markdown
-[![Death Toll](https://img.shields.io/badge/dynamic/json?color=red&label=Death%20Toll&query=$.total_deaths&url=https://your-api.vercel.app/badges&style=for-the-badge)](https://github.com/your-username/gaza-genocide-documentation)
+[![Death Toll](https://img.shields.io/badge/dynamic/json?color=red&label=Death%20Toll&query=$.total_deaths&url=https://your-api.vercel.app/badges&style=for-the-badge)](https://github.com/SharifDer/gaza-genocide-documentation)
 ```
 
 ## 🔧 How It Works
