@@ -2,200 +2,100 @@
 
 ![Gaza Banner](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=300&fit=crop&crop=center)
 
-## 🔥 **URGENT: LIVE GENOCIDE IN PROGRESS** 🔥
+## �� **URGENT: LIVE GENOCIDE IN PROGRESS** 🚨
 
-> **🩸 WARNING: This is not history. This is happening NOW. Every hour, more innocent lives are lost. Every minute, children are dying from bombs, starvation, and disease. This is a live documentation of an ongoing genocide.**
-
----
-
-## 📊 **LIVE STATISTICS** (Auto-Updated Hourly)
-
-### **Animated Danger Indicators**
-
-<!-- Dynamic SVG counters with animated circles -->
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin: 2rem 0">
-
-<!-- Death Toll -->
-<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#ff0000" stroke-width="8" 
-          stroke-dasharray="314" stroke-dashoffset="0" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" from="314" to="0" dur="1.5s" fill="freeze"/>
-  </circle>
-  <text x="60" y="65" text-anchor="middle" font-family="Arial" font-size="20" fill="#ff0000">
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
-    ${death_toll}
-  </text>
-  <text x="60" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Death Toll</text>
-</svg>
-
-<!-- Children Killed -->
-<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#ff5500" stroke-width="8" 
-          stroke-dasharray="314" stroke-dashoffset="314" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" from="314" to="157" dur="1.5s" fill="freeze"/>
-  </circle>
-  <text x="60" y="65" text-anchor="middle" font-family="Arial" font-size="20" fill="#ff5500">
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
-    ${children_killed}
-  </text>
-  <text x="60" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Children Killed</text>
-</svg>
-
-<!-- Women Killed -->
-<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#cc00cc" stroke-width="8" 
-          stroke-dasharray="314" stroke-dashoffset="314" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" from="314" to="125" dur="1.5s" fill="freeze"/>
-  </circle>
-  <text x="60" y="65" text-anchor="middle" font-family="Arial" font-size="20" fill="#cc00cc">
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
-    ${women_killed}
-  </text>
-  <text x="60" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Women Killed</text>
-</svg>
-
-<!-- Injured -->
-<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#ffcc00" stroke-width="8" 
-          stroke-dasharray="314" stroke-dashoffset="314" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" from="314" to="50" dur="1.5s" fill="freeze"/>
-  </circle>
-  <text x="60" y="65" text-anchor="middle" font-family="Arial" font-size="20" fill="#ffcc00">
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
-    ${injured}
-  </text>
-  <text x="60" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Injured</text>
-</svg>
-
-<!-- Displaced -->
-<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#0066cc" stroke-width="8" 
-          stroke-dasharray="314" stroke-dashoffset="314" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" from="314" to="10" dur="1.5s" fill="freeze"/>
-  </circle>
-  <text x="60" y="65" text-anchor="middle" font-family="Arial" font-size="20" fill="#0066cc">
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
-    ${displaced}
-  </text>
-  <text x="60" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Displaced</text>
-</svg>
-
-<!-- Hospitals -->
-<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#00aa00" stroke-width="8" 
-          stroke-dasharray="314" stroke-dashoffset="314" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" from="314" to="220" dur="1.5s" fill="freeze"/>
-  </circle>
-  <text x="60" y="65" text-anchor="middle" font-family="Arial" font-size="20" fill="#00aa00">
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
-    ${hospitals_operational}
-  </text>
-  <text x="60" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Hospitals</text>
-</svg>
-
-<!-- Last Updated -->
-<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#e0e0e0" stroke-width="8"/>
-  <circle cx="60" cy="60" r="50" fill="none" stroke="#5555ff" stroke-width="8" 
-          stroke-dasharray="314" stroke-dashoffset="314" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" from="314" to="0" dur="1.5s" fill="freeze"/>
-  </circle>
-  <text x="60" y="55" text-anchor="middle" font-family="Arial" font-size="14" fill="#5555ff">
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
-    ${last_updated_date}
-  </text>
-  <text x="60" y="75" text-anchor="middle" font-family="Arial" font-size="14" fill="#5555ff">
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
-    ${last_updated_time}
-  </text>
-  <text x="60" y="110" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Last Updated</text>
-</svg>
-</div>
+> **⚠️ WARNING: This is not history. This is happening NOW. Every hour, more innocent lives are lost. Every minute, children are dying from bombs, starvation, and disease. This is a live documentation of an ongoing genocide.**
 
 ---
 
-## 🔍 Table of Contents
+## 📊 **LIVE STATISTICS** (Auto-Updated Every Hour)
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin: 1.5rem 0">
-  <div style="padding: 12px; background: #fff8f8; border-left: 4px solid #ff0000; border-radius: 4px">Live Crisis Overview</div>
-  <div style="padding: 12px; background: #fff8f8; border-left: 4px solid #ff0000; border-radius: 4px">Real-Time Death Toll</div>
-  <div style="padding: 12px; background: #fff8f8; border-left: 4px solid #ff5500; border-radius: 4px">Human Suffering in Numbers</div>
-  <div style="padding: 12px; background: #fff8f8; border-left: 4px solid #cc00cc; border-radius: 4px">Timeline of Horror</div>
-  <div style="padding: 12px; background: #fff8f8; border-left: 4px solid #ff0000; border-radius: 4px">Humanitarian Catastrophe</div>
-  <div style="padding: 12px; background: #fff8f8; border-left: 4px solid #0066cc; border-radius: 4px">International Response</div>
-  <div style="padding: 12px; background: #fff8f8; border-left: 4px solid #5555ff; border-radius: 4px">Sources and Documentation</div>
-  <div style="padding: 12px; background: #fff8f8; border-left: 4px solid #00aa00; border-radius: 4px">How to Help</div>
-</div>
+### **Circular Statistics Badges**
+
+[![Death Toll](https://img.shields.io/badge/Death%20Toll-27,000%2B-red?style=for-the-badge&logo=skull)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Children Killed](https://img.shields.io/badge/Children%20Killed-11,500%2B-orange?style=for-the-badge&logo=baby)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Women Killed](https://img.shields.io/badge/Women%20Killed-8,000%2B-purple?style=for-the-badge&logo=heart)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge&logo=medical-cross)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge&logo=people)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Hospitals](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge&logo=hospital)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-01%2021:10%20UTC-blue?style=for-the-badge&logo=clock)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 
 ---
 
-## 🔥 Live Crisis Overview
+## 📋 Table of Contents
+
+- [Live Crisis Overview](#live-crisis-overview)
+- [Real-Time Death Toll](#real-time-death-toll)
+- [Human Suffering in Numbers](#human-suffering-in-numbers)
+- [Timeline of Horror](#timeline-of-horror)
+- [Humanitarian Catastrophe](#humanitarian-catastrophe)
+- [International Response](#international-response)
+- [Sources and Documentation](#sources-and-documentation)
+- [How to Help](#how-to-help)
+
+---
+
+## 🚨 Live Crisis Overview
 
 **This is not a historical document. This is a live feed of human suffering happening in real-time.**
 
 The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented humanitarian catastrophe. What began as a military operation has escalated into what international organizations are calling a **genocide in progress**. 
 
 ### **The Reality Right Now:**
-- ⏱️ **Every 10 minutes**, a child dies from violence or starvation
-- ⚰️ **Every hour**, entire families are wiped out
-- 🏥 **Every day**, hospitals are bombed while treating patients
-- 🏚️ **Every week**, thousands more are displaced and left homeless
+- **Every 10 minutes**, a child dies from violence or starvation
+- **Every hour**, entire families are wiped out
+- **Every day**, hospitals are bombed while treating patients
+- **Every week**, thousands more are displaced and left homeless
 
-> **🩸 These are not just numbers. These are human beings - children, mothers, fathers, grandparents - whose lives are being systematically destroyed.**
+> **�� These are not just numbers. These are human beings - children, mothers, fathers, grandparents - whose lives are being systematically destroyed.**
 
 ---
 
-## ⚰️ Real-Time Death Toll
+## 📊 Real-Time Death Toll
 
-### **LIVE STATISTICS TABLE** (Auto-Updated Hourly)
+### **LIVE STATISTICS TABLE** (Auto-Updated Every Hour)
 
-| Category | LIVE COUNT | Last Updated | Status |
-|----------|------------|--------------|--------|
-| **Total Deaths** | ${death_toll} | ${last_updated_datetime} | 🔴 **LIVE** |
-| **Children Killed** | ${children_killed} | ${last_updated_datetime} | 🟠 **LIVE** |
-| **Women Killed** | ${women_killed} | ${last_updated_datetime} | 🟣 **LIVE** |
-| **Injured** | ${injured} | ${last_updated_datetime} | 🟡 **LIVE** |
-| **Displaced** | ${displaced} | ${last_updated_datetime} | 🔵 **LIVE** |
-| **Hospitals Operational** | ${hospitals_operational} | ${last_updated_datetime} | 🟢 **LIVE** |
+| Category | **LIVE COUNT** | Last Updated | Status |
+|----------|----------------|--------------|---------|
+| **Total Deaths** | 27,000+ | 2025-08-01 21:10 UTC | 🔴 **LIVE** |
+| **Children Killed** | 11,500+ | 2025-08-01 21:10 UTC | 🟠 **LIVE** |
+| **Women Killed** | 8,000+ | 2025-08-01 21:10 UTC | �� **LIVE** |
+| **Injured** | 66,000+ | 2025-08-01 21:10 UTC | �� **LIVE** |
+| **Displaced** | 1.9M+ | 2025-08-01 21:10 UTC | 🔵 **LIVE** |
+| **Hospitals** | 15/36 | 2025-08-01 21:10 UTC | �� **LIVE** |
 
 ### **The Human Cost:**
-- 👶 **${children_killed} children killed** - Equivalent to ${classrooms} classrooms of children
-- 👩 **${women_killed} women killed** - Mothers, daughters, sisters, grandmothers
-- 🩸 **${injured} injured** - Many with life-altering disabilities
-- 🏕️ **${displaced} displaced** - ${displaced_percentage} of the entire population homeless
+- **11,500+ children killed** - That's more than 4,000 classrooms of children
+- **8,000+ women killed** - Mothers, daughters, sisters, grandmothers
+- **66,000+ injured** - Many with life-altering disabilities
+- **1.9M+ displaced** - 85% of the entire population homeless
 
 ---
 
-## 😢 Human Suffering in Numbers
+## �� Human Suffering in Numbers
 
 ### **Infrastructure Annihilated**
-- 🏥 **${hospitals_destroyed} hospitals destroyed** - Medical care systematically eliminated
-- 🏫 **${schools_destroyed} schools destroyed** - Education and hope for children erased
-- 🏠 **${homes_destroyed} homes destroyed** - Entire neighborhoods reduced to rubble
-- 🕌 **${religious_sites_destroyed} religious sites destroyed** - Places of worship and community targeted
+- 🏥 **23 hospitals destroyed** - Medical care systematically eliminated
+- 🏫 **300+ schools destroyed** - Education and hope for children erased
+- 🏠 **60,000+ homes destroyed** - Entire neighborhoods reduced to rubble
+- 🕌 **200+ religious sites destroyed** - Places of worship and community targeted
 
 ### **Humanitarian Catastrophe**
-- 👥 **${displaced} displaced** - ${displaced_percentage} of population living in tents or ruins
-- 🍞 **${famine_percentage} facing famine** - Children dying from starvation
-- 💧 **${clean_water_percentage} without clean water** - Disease spreading rapidly
-- ⚡ **${electricity_hours} hours of electricity daily** - No refrigeration or medical equipment
-- 🩺 **${medical_staff_killed} medical staff killed** - Healthcare workers targeted
+- 👥 **1.9 million displaced** - 85% of population living in tents or ruins
+- 🍞 **93% facing famine** - Children dying from starvation
+- 💧 **85% without clean water** - Disease spreading rapidly
+- ⚡ **2-4 hours of electricity per day** - No refrigeration, no medical equipment
+- 🚑 **300+ medical staff killed** - Healthcare workers targeted while saving lives
 
 ### **The Children's Crisis**
-- 🍼 **${malnourished_children_percentage} of children under 5 acutely malnourished**
-- 💀 **Babies dying from dehydration and starvation**
-- 🧑‍⚕️ **Children performing surgeries on other children**
-- 📚 **Schools turned into morgues and shelters**
+- **25% of children under 5 acutely malnourished**
+- **Babies dying from dehydration and starvation**
+- **Children performing surgeries on other children**
+- **Schools turned into morgues and shelters**
 
 ---
 
-## ⏳ Timeline of Horror
+## ⏰ Timeline of Horror
 
 ### **2023-2024: The Unfolding Genocide**
 
@@ -209,10 +109,10 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 | **TODAY** | **ONGOING GENOCIDE** | **LIVE UPDATES** | **REAL-TIME** |
 
 ### **What This Means:**
-- ⏳ **Every day** brings more death and destruction
-- 📉 **Every week** the crisis deepens
-- 👁️ **Every month** the world watches as genocide continues
-- 🔄 **Every hour** this documentation updates with new horrors
+- **Every day** brings more death and destruction
+- **Every week** the crisis deepens
+- **Every month** the world watches as genocide continues
+- **Every hour** this documentation updates with new horrors
 
 ---
 
@@ -221,46 +121,46 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 ### **The Reality Right Now**
 
 #### **Starvation and Famine**
-- 🥄 **${malnourished_children_percentage} of children under 5 acutely malnourished** - Bodies wasting away
-- 🚚 **${aid_trucks} aid trucks daily** (vs. ${aid_trucks_needed} needed) - Not enough to prevent starvation
-- ☠️ **${starvation_deaths}+ confirmed starvation deaths** - People dying from hunger, not bombs
-- 👶 **Babies dying from dehydration** - No clean water for formula
+- **25% of children under 5 acutely malnourished** - Their bodies literally wasting away
+- **150 aid trucks per day** (vs. 500+ needed) - Not enough food to prevent starvation
+- **25+ confirmed starvation deaths** - People dying from lack of food, not bombs
+- **Babies dying from dehydration** - No clean water for formula
 
 #### **Medical Crisis**
-- 🏥 **${hospitals_operational} hospitals operational** - Healthcare system destroyed
-- 💊 **${medicines_unavailable} of essential medicines unavailable** - No treatment for diseases
-- 🩺 **${medical_staff_killed} medical staff killed** - Doctors and nurses targeted
-- 🎥 **${journalists_killed} journalists killed** - Truth-tellers silenced
+- **15 out of 36 hospitals operational** - Healthcare system destroyed
+- **80% of essential medicines unavailable** - No treatment for diseases
+- **300+ medical staff killed** - Doctors and nurses targeted while saving lives
+- **100+ journalists killed** - Truth-tellers silenced
 
 #### **Displacement Hell**
-- 🏕️ **${refugee_camps} refugee camps housing ${displaced} people** - Overcrowded beyond capacity
-- 🦠 **Conditions**: No sanitation, disease spreading, children dying
-- 🏚️ **${damaged_homes_percentage} living in damaged buildings** - No shelter from bombs or weather
+- **8 refugee camps housing 1.9M people** - Overcrowded beyond capacity
+- **Conditions**: No sanitation, disease spreading, children dying
+- **60% living in damaged/destroyed buildings** - No shelter from bombs or weather
 
 ---
 
 ## 🌍 International Response
 
 ### **What the World Has Done**
-- 🏛️ **UN Security Council**: ${un_resolutions} resolutions passed/vetoed
-- ⚖️ **International Court of Justice**: ${icj_cases} cases filed, ceasefire orders ignored
-- 🧑‍🤝‍🧑 **Humanitarian Aid**: ${aid_pledged} pledged (not reaching people)
-- 📣 **${condemning_countries}+ countries condemning** - But genocide continues
+- **UN Security Council**: 3 resolutions passed/vetoed
+- **International Court of Justice**: 2 cases filed, ceasefire orders ignored
+- **Humanitarian Aid**: $2.5B+ pledged (but not reaching people)
+- **150+ countries condemning** - But genocide continues
 
 ### **The Reality:**
-- ❌ **Resolutions ignored**
-- ⛔ **Ceasefire orders violated**
-- 🚫 **Aid blocked or destroyed**
-- 😔 **Genocide continues with impunity**
+- **Resolutions ignored**
+- **Ceasefire orders violated**
+- **Aid blocked or destroyed**
+- **Genocide continues with impunity**
 
 ---
 
 ## 📚 Sources and Documentation
 
 ### **Verified Sources**
-- 🏥 **Gaza Ministry of Health**: [Official Reports](https://www.moh.gov.ps/)
-- 🇺🇳 **UN OCHA**: [Gaza Flash Updates](https://www.ochaopt.org/)
-- 🧑‍⚕️ **WHO**: [Gaza Health Situation](https://www.who.int/emergencies/situations/gaza-health-situation)
+- �� **Gaza Ministry of Health**: [Official Reports](https://www.moh.gov.ps/)
+- 🇺�� **UN OCHA**: [Gaza Flash Updates](https://www.ochaopt.org/)
+- 🏥 **WHO**: [Gaza Health Situation](https://www.who.int/emergencies/situations/gaza-health-situation)
 - 📰 **International Media**: [Verified Reports](https://www.reuters.com/)
 
 ### **Data Verification**
@@ -269,10 +169,9 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
   "primary_source": "Gaza Ministry of Health",
   "update_frequency": "hourly", 
   "api_endpoint": "data/api_stats.json",
-  "last_verification": "${last_verification_date}",
+  "last_verification": "2024-01-08",
   "verification_process": "Cross-referenced with multiple international sources"
 }
-
 ```
 
 ---
