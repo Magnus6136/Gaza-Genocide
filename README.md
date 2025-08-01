@@ -8,7 +8,7 @@
 [![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 [![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 [![Hospitals Operational](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-01%2021:10%20UTC-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-01%2018:51%20UTC-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 
 ---
 
@@ -56,9 +56,9 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 | **Total Deaths** | ![Deaths](https://img.shields.io/badge/dynamic/json?color=red&label=DEATHS&query=$.total_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | ![Last Update](https://img.shields.io/badge/dynamic/json?color=blue&label=UPDATED&query=$.last_updated&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=flat-square) |
 | **Children Killed** | ![Children](https://img.shields.io/badge/dynamic/json?color=orange&label=CHILDREN&query=$.children_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | - |
 | **Women Killed** | ![Women](https://img.shields.io/badge/dynamic/json?color=purple&label=WOMEN&query=$.women_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | - |
-| **Injured** | ![Injured](https://img.shields.io/badge/dynamic/json?color=yellow&label=INJURED&query=$.total_injured&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | - |
-| **Displaced** | ![Displaced](https://img.shields.io/badge/dynamic/json?color=blue&label=DISPLACED&query=$.displaced_people&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | - |
-| **Hospitals** | ![Hospitals](https://img.shields.io/badge/dynamic/json?color=green&label=HOSPITALS&query=$.operational_hospitals&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | - |
+| **Injured** | ![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge) | - |
+| **Displaced** | ![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge) | - |
+| **Hospitals** | ![Hospitals](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge) | - |
 
 ### **The Human Cost:**
 - **11,500+ children killed** - That's more than 4,000 classrooms of children
@@ -383,7 +383,7 @@ This documentation is released under [Creative Commons Attribution 4.0 Internati
 
 ---
 
-**Last Updated**: 2025-08-01 21:10 UTC
+**Last Updated**: 2025-08-01 18:51 UTC
 
 **Star this repo** ⭐ to help spread awareness and keep this documentation visible.
 
