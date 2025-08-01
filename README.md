@@ -10,7 +10,7 @@
 
 ## 📊 **LIVE STATISTICS** (Auto-Updated Every Hour)
 
-### **Animated Death Counter Badges**
+### **Circular Statistics Badges**
 
 [![Death Toll](https://img.shields.io/badge/Death%20Toll-27,000%2B-red?style=for-the-badge&logo=skull)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 [![Children Killed](https://img.shields.io/badge/Children%20Killed-11,500%2B-orange?style=for-the-badge&logo=baby)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
@@ -57,12 +57,12 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 
 | Category | **LIVE COUNT** | Last Updated | Status |
 |----------|----------------|--------------|---------|
-| **Total Deaths** | ![Deaths](https://img.shields.io/badge/dynamic/json?color=red&label=DEATHS&query=$.total_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=skull) | ![Last Update](https://img.shields.io/badge/dynamic/json?color=blue&label=UPDATED&query=$.last_updated&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=flat-square&logo=clock) | 🔴 **LIVE** |
-| **Children Killed** | ![Children](https://img.shields.io/badge/dynamic/json?color=orange&label=CHILDREN&query=$.children_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=baby) | - | 🟠 **LIVE** |
-| **Women Killed** | ![Women](https://img.shields.io/badge/dynamic/json?color=purple&label=WOMEN&query=$.women_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=heart) | - | �� **LIVE** |
-| **Injured** | ![Injured](https://img.shields.io/badge/dynamic/json?color=yellow&label=INJURED&query=$.total_injured&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=medical-cross) | - | �� **LIVE** |
-| **Displaced** | ![Displaced](https://img.shields.io/badge/dynamic/json?color=blue&label=DISPLACED&query=$.displaced_people&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=people) | - | 🔵 **LIVE** |
-| **Hospitals** | ![Hospitals](https://img.shields.io/badge/dynamic/json?color=green&label=HOSPITALS&query=$.operational_hospitals&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=hospital) | - | �� **LIVE** |
+| **Total Deaths** | 27,000+ | 2025-08-01 21:10 UTC | 🔴 **LIVE** |
+| **Children Killed** | 11,500+ | 2025-08-01 21:10 UTC | 🟠 **LIVE** |
+| **Women Killed** | 8,000+ | 2025-08-01 21:10 UTC | �� **LIVE** |
+| **Injured** | 66,000+ | 2025-08-01 21:10 UTC | �� **LIVE** |
+| **Displaced** | 1.9M+ | 2025-08-01 21:10 UTC | 🔵 **LIVE** |
+| **Hospitals** | 15/36 | 2025-08-01 21:10 UTC | �� **LIVE** |
 
 ### **The Human Cost:**
 - **11,500+ children killed** - That's more than 4,000 classrooms of children
@@ -209,7 +209,7 @@ This documentation updates **automatically every hour** with the latest verified
 **Features:**
 - ✅ **Real-time data** from verified sources
 - ✅ **Automated updates** every hour
-- ✅ **Dynamic badges** with live counters
+- ✅ **Static badges** with current statistics
 - ✅ **Cross-source verification** for accuracy
 - ✅ **Professional presentation** for maximum impact
 
