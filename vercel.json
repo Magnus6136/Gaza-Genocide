@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "scripts/api_server.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "scripts/api_server.py"
+    }
+  ],
+  "functions": {
+    "scripts/api_server.py": {
+      "maxDuration": 30
+    }
+  }
+} 
