@@ -19,14 +19,13 @@ def fetch_gaza_ministry_stats():
     try:
         # Real data sources - Gaza Ministry of Health and humanitarian organizations
         stats = {
-            "total_deaths": "27,000+",
-            "children_deaths": "11,500+", 
-            "women_deaths": "8,000+",
-            "total_injured": "66,000+",
-            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M UTC"),
-            "source": "Gaza Ministry of Health"
-        }
-        
+        "total_deaths": "54,084+",
+        "children_deaths": "16,854+",
+        "women_deaths": "Not separately published",
+        "total_injured": "123,308+",
+        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M UTC"),
+        "source": "Gaza Ministry of Health (cumulative to May 28, 2025)"
+}
         # Try to fetch from actual sources if available
         try:
             # UN OCHA Gaza Flash Update (if accessible)
