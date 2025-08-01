@@ -203,30 +203,161 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 This documentation updates **automatically every hour** with the latest verified statistics:
 
 ```yaml
-# .github/workflows/update-stats.yml
 name: Update Gaza Statistics
+
 on:
   schedule:
     - cron: '0 * * * *'  # Every hour
-  workflow_dispatch:
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches: [ main ]
+
+# Add permissions to allow the workflow to write to the repository
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v4
-      - name: Fetch latest statistics
-        run: python fetch_statistics.py
-      - name: Update README badges
-        run: python scripts/update_badges.py
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Update statistics - $(date)" || exit 0
-          git push
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+        
+    - name: Fetch latest statistics
+      run: |
+        python fetch_statistics.py
+        
+    - name: Update README badges
+      run: |
+        python scripts/update_badges.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Gaza statistics - $(date -u '+%Y-%m-%d %H:%M UTC')" && git push)
+        
+    - name: Create release if major update
+      if: github.event_name == 'workflow_dispatch'
+      run: |
+        # Create a release if manually triggered
+        echo "Manual update completed"
 ```
+
+## **Alternative Solution: Use Personal Access Token**
+
+If the above doesn't work, you can also create a Personal Access Token:
+
+### **Step 1: Create Personal Access Token**
+1. Go to GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Click "Generate new token (classic)"
+3. Give it a name like "Gaza Stats Update"
+4. Select scopes: `repo` (full control of private repositories)
+5. Copy the token
+
+### **Step 2: Add Token to Repository Secrets**
+1. Go to your repository → Settings → Secrets and variables → Actions
+2. Click "New repository secret"
+3. Name: `PAT_TOKEN`
+4. Value: Paste your personal access token
+
+### **Step 3: Update Workflow to Use Token**
+```yaml
+name: Update Gaza Statistics
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches: [ main ]
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.PAT_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+        
+    - name: Fetch latest statistics
+      run: |
+        python fetch_statistics.py
+        
+    - name: Update README badges
+      run: |
+        python scripts/update_badges.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Gaza statistics - $(date -u '+%Y-%m-%d %H:%M UTC')" && git push)
+        
+    - name: Create release if major update
+      if: github.event_name == 'workflow_dispatch'
+      run: |
+        # Create a release if manually triggered
+        echo "Manual update completed"
+```
+
+## **Quick Fix Steps:**
+
+1. **Update the workflow file** with the corrected version above
+2. **Push the changes**:
+   ```bash
+   git add .github/workflows/update-stats.yml
+   git commit -m "Fix GitHub Actions permissions"
+   git push origin main
+   ```
+
+3. **If it still fails**, use the Personal Access Token method:
+   - Create a PAT token
+   - Add it to repository secrets as `PAT_TOKEN`
+   - Use the second workflow version
+
+## **Why This Happens:**
+
+- GitHub Actions by default has limited permissions
+- The workflow needs explicit `contents: write` permission
+- The bot email should be `github-actions[bot]@users.noreply.github.com`
+
+## **Test the Fix:**
+
+After updating the workflow:
+1. Go to your repository → Actions tab
+2. Click "Run workflow" → "Update Gaza Statistics"
+3. Monitor the execution to see if it succeeds
+
+The workflow should now be able to commit and push changes automatically! 🎉
 
 ---
 
