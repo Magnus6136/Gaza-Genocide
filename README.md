@@ -12,7 +12,15 @@
 
 ### Circular Statistics Badges
 
+
 [![Death Toll](https://img.shields.io/badge/Death%20Toll-27,000%2B-red?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Children Killed](https://img.shields.io/badge/Children%20Killed-11,500%2B-orange?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Women Killed](https://img.shields.io/badge/Women%20Killed-8,000%2B-purple?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Hospitals](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-01%2020:26%20UTC-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+
 ---
 
 ## 📋 Table of Contents
