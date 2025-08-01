@@ -2,7 +2,7 @@
 
 ![Gaza Banner](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=300&fit=crop&crop=center)
 
-## �� **URGENT: LIVE GENOCIDE IN PROGRESS** 🚨
+## ⚠️ **URGENT: LIVE GENOCIDE IN PROGRESS** 🚨
 
 > **⚠️ WARNING: This is not history. This is happening NOW. Every hour, more innocent lives are lost. Every minute, children are dying from bombs, starvation, and disease. This is a live documentation of an ongoing genocide.**
 
@@ -72,7 +72,7 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 
 ---
 
-## �� Human Suffering in Numbers
+##  Human Suffering in Numbers
 
 ### **Infrastructure Annihilated**
 - 🏥 **23 hospitals destroyed** - Medical care systematically eliminated
