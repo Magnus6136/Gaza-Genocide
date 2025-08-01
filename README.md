@@ -12,13 +12,13 @@
 
 ### **Circular Statistics Badges**
 
-[![Death Toll](https://img.shields.io/badge/Death%20Toll-27,000%2B-red?style=for-the-badge&logo=skull)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Children Killed](https://img.shields.io/badge/Children%20Killed-11,500%2B-orange?style=for-the-badge&logo=baby)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Women Killed](https://img.shields.io/badge/Women%20Killed-8,000%2B-purple?style=for-the-badge&logo=heart)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge&logo=medical-cross)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge&logo=people)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Hospitals](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge&logo=hospital)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-01%2021:10%20UTC-blue?style=for-the-badge&logo=clock)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Death Toll](https://img.shields.io/badge/Death%20Toll-27,000%2B-red?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Children Killed](https://img.shields.io/badge/Children%20Killed-11,500%2B-orange?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Women Killed](https://img.shields.io/badge/Women%20Killed-8,000%2B-purple?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Hospitals](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-01%2019:49%20UTC-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 
 ---
 
@@ -237,7 +237,7 @@ This documentation is released under [Creative Commons Attribution 4.0 Internati
 
 ---
 
-**Last Updated**: 2025-08-01 21:10 UTC
+**Last Updated**: 2025-08-01 19:49 UTC
 
 **Star this repo** ⭐ to help spread awareness and keep this documentation visible.
 
