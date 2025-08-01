@@ -6,6 +6,8 @@ on:
   workflow_dispatch:  # Allow manual trigger
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'README.md'
 
 permissions:
   contents: write
