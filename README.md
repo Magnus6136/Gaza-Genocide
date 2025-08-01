@@ -2,19 +2,23 @@
 
 ![Gaza Banner](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=300&fit=crop&crop=center)
 
-[![Death Toll](https://img.shields.io/badge/Death%20Toll-27,000%2B-red?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Children Killed](https://img.shields.io/badge/Children%20Killed-11,500%2B-orange?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Women Killed](https://img.shields.io/badge/Women%20Killed-8,000%2B-purple?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Hospitals Operational](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-01%2019:02%20UTC-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+## �� **URGENT: LIVE GENOCIDE IN PROGRESS** 🚨
+
+> **⚠️ WARNING: This is not history. This is happening NOW. Every hour, more innocent lives are lost. Every minute, children are dying from bombs, starvation, and disease. This is a live documentation of an ongoing genocide.**
 
 ---
 
-## 🚨 URGENT: LIVE GENOCIDE IN PROGRESS 🚨
+## 📊 **LIVE STATISTICS** (Auto-Updated Every Hour)
 
-> **⚠️ WARNING: This is not history. This is happening NOW. Every hour, more innocent lives are lost. Every minute, children are dying from bombs, starvation, and disease. This is a live documentation of an ongoing genocide.**
+### **Animated Death Counter Badges**
+
+[![Death Toll](https://img.shields.io/badge/Death%20Toll-27,000%2B-red?style=for-the-badge&logo=skull)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Children Killed](https://img.shields.io/badge/Children%20Killed-11,500%2B-orange?style=for-the-badge&logo=baby)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Women Killed](https://img.shields.io/badge/Women%20Killed-8,000%2B-purple?style=for-the-badge&logo=heart)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge&logo=medical-cross)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge&logo=people)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Hospitals](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge&logo=hospital)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-01%2021:10%20UTC-blue?style=for-the-badge&logo=clock)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 
 ---
 
@@ -43,22 +47,22 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 - **Every day**, hospitals are bombed while treating patients
 - **Every week**, thousands more are displaced and left homeless
 
-> ** These are not just numbers. These are human beings - children, mothers, fathers, grandparents - whose lives are being systematically destroyed.**
+> **�� These are not just numbers. These are human beings - children, mothers, fathers, grandparents - whose lives are being systematically destroyed.**
 
 ---
 
 ## 📊 Real-Time Death Toll
 
-### **LIVE STATISTICS** (Auto-Updated Every Hour)
+### **LIVE STATISTICS TABLE** (Auto-Updated Every Hour)
 
-| Category | **LIVE COUNT** | Last Updated |
-|----------|----------------|--------------|
-| **Total Deaths** | ![Deaths](https://img.shields.io/badge/dynamic/json?color=red&label=DEATHS&query=$.total_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | ![Last Update](https://img.shields.io/badge/dynamic/json?color=blue&label=UPDATED&query=$.last_updated&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=flat-square) |
-| **Children Killed** | ![Children](https://img.shields.io/badge/dynamic/json?color=orange&label=CHILDREN&query=$.children_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | - |
-| **Women Killed** | ![Women](https://img.shields.io/badge/dynamic/json?color=purple&label=WOMEN&query=$.women_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge) | - |
-| **Injured** | ![Injured](https://img.shields.io/badge/Injured-66,000%2B-yellow?style=for-the-badge) | - |
-| **Displaced** | ![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge) | - |
-| **Hospitals** | ![Hospitals](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge) | - |
+| Category | **LIVE COUNT** | Last Updated | Status |
+|----------|----------------|--------------|---------|
+| **Total Deaths** | ![Deaths](https://img.shields.io/badge/dynamic/json?color=red&label=DEATHS&query=$.total_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=skull) | ![Last Update](https://img.shields.io/badge/dynamic/json?color=blue&label=UPDATED&query=$.last_updated&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=flat-square&logo=clock) | 🔴 **LIVE** |
+| **Children Killed** | ![Children](https://img.shields.io/badge/dynamic/json?color=orange&label=CHILDREN&query=$.children_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=baby) | - | 🟠 **LIVE** |
+| **Women Killed** | ![Women](https://img.shields.io/badge/dynamic/json?color=purple&label=WOMEN&query=$.women_deaths&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=heart) | - | �� **LIVE** |
+| **Injured** | ![Injured](https://img.shields.io/badge/dynamic/json?color=yellow&label=INJURED&query=$.total_injured&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=medical-cross) | - | �� **LIVE** |
+| **Displaced** | ![Displaced](https://img.shields.io/badge/dynamic/json?color=blue&label=DISPLACED&query=$.displaced_people&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=people) | - | 🔵 **LIVE** |
+| **Hospitals** | ![Hospitals](https://img.shields.io/badge/dynamic/json?color=green&label=HOSPITALS&query=$.operational_hospitals&url=https://raw.githubusercontent.com/SharifDer/Stop-Gaza-Genocide-/main/data/api_stats.json&style=for-the-badge&logo=hospital) | - | �� **LIVE** |
 
 ### **The Human Cost:**
 - **11,500+ children killed** - That's more than 4,000 classrooms of children
@@ -68,7 +72,7 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 
 ---
 
-## 🚨 Human Suffering in Numbers
+## �� Human Suffering in Numbers
 
 ### **Infrastructure Annihilated**
 - 🏥 **23 hospitals destroyed** - Medical care systematically eliminated
@@ -154,8 +158,8 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 ## 📚 Sources and Documentation
 
 ### **Verified Sources**
-- 📊 **Gaza Ministry of Health**: [Official Reports](https://www.moh.gov.ps/)
-- 🇺🇳 **UN OCHA**: [Gaza Flash Updates](https://www.ochaopt.org/)
+- �� **Gaza Ministry of Health**: [Official Reports](https://www.moh.gov.ps/)
+- 🇺�� **UN OCHA**: [Gaza Flash Updates](https://www.ochaopt.org/)
 - 🏥 **WHO**: [Gaza Health Situation](https://www.who.int/emergencies/situations/gaza-health-situation)
 - 📰 **International Media**: [Verified Reports](https://www.reuters.com/)
 
@@ -200,164 +204,14 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 
 ### **Live Update System**
 
-This documentation updates **automatically every hour** with the latest verified statistics:
+This documentation updates **automatically every hour** with the latest verified statistics using GitHub Actions automation.
 
-```yaml
-name: Update Gaza Statistics
-
-on:
-  schedule:
-    - cron: '0 * * * *'  # Every hour
-  workflow_dispatch:  # Allow manual trigger
-  push:
-    branches: [ main ]
-
-# Add permissions to allow the workflow to write to the repository
-permissions:
-  contents: write
-  pull-requests: write
-
-jobs:
-  update-stats:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-        
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests beautifulsoup4
-        
-    - name: Fetch latest statistics
-      run: |
-        python fetch_statistics.py
-        
-    - name: Update README badges
-      run: |
-        python scripts/update_badges.py
-        
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add .
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Gaza statistics - $(date -u '+%Y-%m-%d %H:%M UTC')" && git push)
-        
-    - name: Create release if major update
-      if: github.event_name == 'workflow_dispatch'
-      run: |
-        # Create a release if manually triggered
-        echo "Manual update completed"
-```
-
-## **Alternative Solution: Use Personal Access Token**
-
-If the above doesn't work, you can also create a Personal Access Token:
-
-### **Step 1: Create Personal Access Token**
-1. Go to GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
-2. Click "Generate new token (classic)"
-3. Give it a name like "Gaza Stats Update"
-4. Select scopes: `repo` (full control of private repositories)
-5. Copy the token
-
-### **Step 2: Add Token to Repository Secrets**
-1. Go to your repository → Settings → Secrets and variables → Actions
-2. Click "New repository secret"
-3. Name: `PAT_TOKEN`
-4. Value: Paste your personal access token
-
-### **Step 3: Update Workflow to Use Token**
-```yaml
-name: Update Gaza Statistics
-
-on:
-  schedule:
-    - cron: '0 * * * *'  # Every hour
-  workflow_dispatch:  # Allow manual trigger
-  push:
-    branches: [ main ]
-
-jobs:
-  update-stats:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.PAT_TOKEN }}
-        
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-        
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests beautifulsoup4
-        
-    - name: Fetch latest statistics
-      run: |
-        python fetch_statistics.py
-        
-    - name: Update README badges
-      run: |
-        python scripts/update_badges.py
-        
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add .
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Gaza statistics - $(date -u '+%Y-%m-%d %H:%M UTC')" && git push)
-        
-    - name: Create release if major update
-      if: github.event_name == 'workflow_dispatch'
-      run: |
-        # Create a release if manually triggered
-        echo "Manual update completed"
-```
-
-## **Quick Fix Steps:**
-
-1. **Update the workflow file** with the corrected version above
-2. **Push the changes**:
-   ```bash
-   git add .github/workflows/update-stats.yml
-   git commit -m "Fix GitHub Actions permissions"
-   git push origin main
-   ```
-
-3. **If it still fails**, use the Personal Access Token method:
-   - Create a PAT token
-   - Add it to repository secrets as `PAT_TOKEN`
-   - Use the second workflow version
-
-## **Why This Happens:**
-
-- GitHub Actions by default has limited permissions
-- The workflow needs explicit `contents: write` permission
-- The bot email should be `github-actions[bot]@users.noreply.github.com`
-
-## **Test the Fix:**
-
-After updating the workflow:
-1. Go to your repository → Actions tab
-2. Click "Run workflow" → "Update Gaza Statistics"
-3. Monitor the execution to see if it succeeds
-
-The workflow should now be able to commit and push changes automatically! 🎉
+**Features:**
+- ✅ **Real-time data** from verified sources
+- ✅ **Automated updates** every hour
+- ✅ **Dynamic badges** with live counters
+- ✅ **Cross-source verification** for accuracy
+- ✅ **Professional presentation** for maximum impact
 
 ---
 
@@ -383,7 +237,7 @@ This documentation is released under [Creative Commons Attribution 4.0 Internati
 
 ---
 
-**Last Updated**: 2025-08-01 19:02 UTC
+**Last Updated**: 2025-08-01 21:10 UTC
 
 **Star this repo** ⭐ to help spread awareness and keep this documentation visible.
 
