@@ -36,7 +36,7 @@
 
 ---
 
-## 🚨 Live Crisis Overview
+##  Live Crisis Overview
 
 **This is not a historical document. This is a live feed of human suffering happening in real-time.**
 
@@ -44,7 +44,7 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 
 ---
 
-## 📊 Real-Time Death Toll
+##  Real-Time Death Toll
 
 ### LIVE STATISTICS TABLE (Auto-Updated Every Hour)
 
