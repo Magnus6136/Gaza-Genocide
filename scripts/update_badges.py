@@ -79,41 +79,11 @@ def update_readme_badges():
         print(f"Error writing README.md: {e}")
         return False
 
-def create_api_endpoint():
-    """Create a simple API endpoint file for badges"""
-    stats = load_latest_stats()
-    if not stats:
-        return False
-    
-    # Create API endpoint for dynamic badges
-    api_data = {
-        "total_deaths": stats.get("total_deaths", "Loading..."),
-        "children_deaths": stats.get("children_deaths", "Loading..."),
-        "women_deaths": stats.get("women_deaths", "Loading..."),
-        "total_injured": stats.get("total_injured", "Loading..."),
-        "displaced_people": stats.get("displaced_people", "Loading..."),
-        "operational_hospitals": stats.get("operational_hospitals", "Loading..."),
-        "last_updated": stats.get("last_updated", "Loading..."),
-        "fetch_timestamp": stats.get("fetch_timestamp", ""),
-        "sources": stats.get("sources", [])
-    }
-    
-    try:
-        with open('data/api_stats.json', 'w', encoding='utf-8') as f:
-            json.dump(api_data, f, indent=2, ensure_ascii=False)
-        print("API endpoint created: data/api_stats.json")
-        return True
-    except Exception as e:
-        print(f"Error creating API endpoint: {e}")
-        return False
-
 if __name__ == "__main__":
     print("Updating README badges...")
     success = update_readme_badges()
     
     if success:
-        print("Creating API endpoint...")
-        create_api_endpoint()
         print("Badge update completed successfully!")
     else:
         print("Badge update failed!") 
