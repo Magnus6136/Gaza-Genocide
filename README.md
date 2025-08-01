@@ -4,7 +4,7 @@
 
 ## �� **URGENT: LIVE GENOCIDE IN PROGRESS** 🚨
 
-> **⚠️ WARNING: This is not history. This is happening NOW. Every hour, more innocent lives are lost. Every minute, children are dying from bombs, starvation, and disease. This is a live documentation of an ongoing genocide.**
+> **⚠️ WARNING: This is not history. This is HAPPENING NOW. Every hour, more innocent lives are lost. Every minute, children are dying from bombs, starvation, and disease. This is a live documentation of an ongoing genocide.**
 
 ---
 
