@@ -7,7 +7,6 @@ on:
   push:
     branches: [ main ]
 
-# Add permissions to allow the workflow to write to the repository
 permissions:
   contents: write
   pull-requests: write
@@ -42,13 +41,12 @@ jobs:
         
     - name: Commit and push changes
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email "sharifderhem@gmail.com"
+        git config --local user.name "SharifDer"
         git add .
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update Gaza statistics - $(date -u '+%Y-%m-%d %H:%M UTC')" && git push)
         
     - name: Create release if major update
       if: github.event_name == 'workflow_dispatch'
       run: |
-        # Create a release if manually triggered
         echo "Manual update completed"
