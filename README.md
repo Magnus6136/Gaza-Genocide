@@ -13,8 +13,6 @@
 ### Circular Statistics Badges
 
 [![Death Toll](https://img.shields.io/badge/Death%20Toll-27,000%2B-red?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
-... (badges continue)
-
 ---
 
 ## 📋 Table of Contents
@@ -172,7 +170,6 @@ The Gaza Strip, home to 2.3 million people, is experiencing an unprecedented hum
 - Join protests demanding an end to the genocide  
 - Write to media demanding better coverage  
 - Use social media to amplify Palestinian voices  
-
 ---
 
 ## ⚙️ Technical Setup
