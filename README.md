@@ -19,7 +19,7 @@
 [![Injured](https://img.shields.io/badge/Injured-123,308%2B-yellow?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 [![Displaced](https://img.shields.io/badge/Displaced-1.9M%2B-blue?style=for-the-badge)](https://github.com/SharifDer/Stop-Gaza-Genocide-)
 [![Hospitals](https://img.shields.io/badge/Hospitals%20Operational-15/36-green?style=for-the-badge)](https://github.com/SharifDer/Gaza-Genocide)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-03%2002:10%20UTC-blue?style=for-the-badge)](https://github.com/SharifDer/Gaza-Genocide)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-08-03%2004:10%20UTC-blue?style=for-the-badge)](https://github.com/SharifDer/Gaza-Genocide)
 
 ---
 
@@ -217,7 +217,7 @@ This documentation is released under [Creative Commons Attribution 4.0 Internati
 
 ---
 
-**Last Updated**: 2025-08-03 02:10 UTC
+**Last Updated**: 2025-08-03 04:10 UTC
 
 **Star this repo** ⭐ to help spread awareness and keep this documentation visible.
 
